@@ -1,0 +1,14 @@
+
+General cases and cornercases to consider
+
+Using Numeric values
+1. Positives
+2. Negatives
+3. Zero Values
+4. Nullvalues if allowed for input
+
+General algorithms
+1. Green path
+2. Empty values
+3. Cornercases
+4. Superbig datasets (Test efficiency)

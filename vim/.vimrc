@@ -1,6 +1,3 @@
-" autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
-" autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
-
 set number
 set mouse=a
 set numberwidth=1
@@ -31,7 +28,7 @@ Plug 'christoomey/vim-tmux-navigator'
 call plug#end()
 
 colorscheme gruvbox
-let g:gruvbox_contrast_dark = "hard"
+" let g:gruvbox_contrast_dark = "hard"
 let NERDTreeQuitOnOpen=1 
 set background=dark
 
@@ -42,4 +39,13 @@ nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 nmap <Leader>x :x<CR>
 
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+
+" Enable folding with spacebar
+nnoremap <end> za 
+
+autocmd FileType python map <buffer> <Leader>p :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+autocmd FileType python imap <buffer> <Leader>p <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 
