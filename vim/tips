@@ -1,0 +1,61 @@
+
+
+
+i for insert mode
+a insert mode after characteer
+shift + i im at the begining of the line
+shift + a im at the end of the line
+
+:wq | :x save & quit
+gd gotodefinition
+gf gotofile
+ctrl + o buffer previous
+ctrl + i buffer next
+
+dw delete word
+u undo
+ctrl + r redo
+d$ delete whatever is next in line
+de delete next word
+db delete part of the word behind
+d6w delete next 6 words
+5k 5 lines up
+5j 5 lines down
+2w 2 words ahead
+
+dd cut
+p paste
+P paste before line
+r replace character
+cw change word
+ciw channge inner word
+
+ctrl + g what is current line?
+gg good game file start
+G final line
+16G goto line 16
+
+/word search for "word"
+?word search backwards
+n next when searching
+N previous when searching
+
+:s/the/de for replacing the for de
+o creates a new line
+
+shift + o create a new line before the cursos
+shift + r enter in replace mode 
+
+v cambiar a modo visual para copiar
+y copiar
+x cortar
+p pegar
+
+
+
+
+//ratify su pelusa. this is the end
+//my bly , the end, my friend the  end
+
+
+
