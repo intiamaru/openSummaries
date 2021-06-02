@@ -15,7 +15,7 @@ import sys
 
 def hourglassSum(arr):
     # Write your code here
-    maxhg = 0
+    maxhg = -float('inf')
     for i in range(1,5):
         for j in range(1,5):
             hg = getHourGlass(arr,i,j)
@@ -31,7 +31,6 @@ def getHourGlass(arr, i, j):
     return result
 
 if __name__ == '__main__':
-    #fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     strinput = """-1 -1 0 -9 -2 -2
 -2 -1 -6 -8 -2 -5
@@ -46,8 +45,7 @@ if __name__ == '__main__':
         arr.append(list(map(int, i.rstrip().split())))
     result = hourglassSum(arr)
 
-    #fptr.write(str(result) + '\n')
-    #fptr.close()
     print(arr)
     print(result)
+
 
