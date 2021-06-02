@@ -51,6 +51,8 @@ y copiar
 x cortar
 p pegar
 
+15>> indent 15 lines
+15<< unindent 15 lines
 
 Check the following guide to manage vim & python
 https://realpython.com/vim-and-python-a-match-made-in-heaven/#vim-extensions
