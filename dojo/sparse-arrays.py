@@ -20,7 +20,6 @@ def matchingStrings(strings, queries):
     # Write your code here
     result = []
     for query in queries:
-        #sum(1 for y in x if y > 2)
         count = sum(1 for string in strings if  string == query)
         #count = sum(map(lambda val: val == query, strings))
         print(list(map(lambda val: val == query, strings)))
